@@ -41,29 +41,28 @@ with MongoDB for storing prediction records.
 ---
 
 ## 📁 Project Structure
-Glaucoma_Project/
+GLAUCOMA_PROJECT/
 │
-├── app.py                        # Main Flask application & routes
-├── train_model.py                # CNN model training script
-├── glaucoma_model.h5             # Pre-trained Keras model (LFS)
-├── requirements.txt              # Python dependencies
+├── .vscode/                          # VS Code settings
+├── dataset/                          # Training/testing images
+├── env/                              # Virtual environment
+├── static/                           # Static files (uploads, CSS, JS)
+├── templates/                        # HTML templates (index.html)
 │
-├── static/                       # Static files
-│   └── uploads/                  # Uploaded retinal images
+├── .gitattributes                    # Git LFS tracking
+├── .gitignore                        # Git ignore rules
+├── app.py                            # Main Flask app (3M lines)
+├── glaucoma_model.h5                 # Trained CNN model
+├── README.md                         # Documentation
+├── requirements.txt                  # Python dependencies
 │
-├── templates/                    # HTML templates
-│   └── index.html                # Main web interface
+├── research_1_distribution.png       # Class distribution plot
+├── research_2_training_grid.png      # Training curves
+├── research_3_confusion_matrix.png   # Confusion matrix
+├── research_4_roc_curve.png          # ROC curve
+├── research_5_pr_curve.png           # PR curve
 │
-├── dataset/                      # Training/testing image dataset
-│
-├── research_1_distribution.png   # Class distribution visualization
-├── research_2_training_grid.png  # Training accuracy/loss curves
-├── research_3_confusion_matrix.png # Model confusion matrix
-├── research_4_roc_curve.png      # ROC-AUC curve
-├── research_5_pr_curve.png       # Precision-Recall curve
-│
-├── .gitignore
-└── .gitattributes                # Git LFS tracking for .h5 model
+└── train_model.py                    # Model training script
 
 ---
 
