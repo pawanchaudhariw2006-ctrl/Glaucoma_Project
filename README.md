@@ -41,30 +41,31 @@ with MongoDB for storing prediction records.
 ---
 
 ## 📁 Project Structure
+
+```
 GLAUCOMA_PROJECT/
 │
-├── .vscode/                          # VS Code settings
-├── dataset/                          # Training/testing images
-├── env/                              # Virtual environment
-├── static/                           # Static files (uploads, CSS, JS)
-├── templates/                        # HTML templates (index.html)
+├── .vscode/
+├── dataset/
+├── env/
+├── static/
+├── templates/
+│   └── index.html
 │
-├── .gitattributes                    # Git LFS tracking
-├── .gitignore                        # Git ignore rules
-├── app.py                            # Main Flask app (3M lines)
-├── glaucoma_model.h5                 # Trained CNN model
-├── README.md                         # Documentation
-├── requirements.txt                  # Python dependencies
+├── .gitattributes
+├── .gitignore
+├── app.py
+├── glaucoma_model.h5
+├── README.md
+├── requirements.txt
+├── train_model.py
 │
-├── research_1_distribution.png       # Class distribution plot
-├── research_2_training_grid.png      # Training curves
-├── research_3_confusion_matrix.png   # Confusion matrix
-├── research_4_roc_curve.png          # ROC curve
-├── research_5_pr_curve.png           # PR curve
-│
-└── train_model.py                    # Model training script
-
----
+├── research_1_distribution.png
+├── research_2_training_grid.png
+├── research_3_confusion_matrix.png
+├── research_4_roc_curve.png
+└── research_5_pr_curve.png
+```
 
 ## ⚙️ Setup & Installation
 
